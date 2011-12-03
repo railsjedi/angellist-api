@@ -5,12 +5,12 @@ require "angellist_api/version"
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
-  
-  s.add_dependency 'hashie', '~> 1.1.0'
+
+  s.add_dependency 'hashie', '>= 1.1.0'
   s.add_dependency 'faraday', '~> 0.7.4'
   s.add_dependency 'faraday_middleware', '~> 0.7.0'
   s.add_dependency 'multi_json', '~> 1.0.0'
-  
+
   s.name        = "angellist_api"
   s.version     = AngellistApi::VERSION
   s.authors     = ["Paul Singh"]
